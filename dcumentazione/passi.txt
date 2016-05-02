@@ -1,0 +1,10 @@
+pag 40 41 fasi di sviluppo
+pag 61 startup applicazione 
+	1)express nome_app 
+	2) npm install 
+	3)npm start
+pag 64 nodemon
+pag 66 	introduce cartella app_server 
+		sposta routes e views e 
+		crea cartella models e controllers
+		modifica i riferimenti in app.js
