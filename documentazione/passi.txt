@@ -8,3 +8,4 @@ pag 66 	introduce cartella app_server
 		sposta routes e views e 
 		crea cartella models e controllers
 		modifica i riferimenti in app.js
+pag 67	aggiunge la funzione di callback homepageController nella route al posto di una anonima
