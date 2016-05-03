@@ -1,5 +1,5 @@
 -------------------------------------------
-segnalibro pag 80
+segnalibro pag 95
 -------------------------------------------
 
 pag 40  fasi di sviluppo
@@ -18,3 +18,6 @@ pag 68	definisce app_server/controllers/main.js e lo riferisce al controller pre
 pag 70	installa bootstrap e jquery ma senza npm install o bower install
 pag 72	in layout.jade imposta i collegamenti a bootstrap e jqueryù
 pag 74	heroku
+pag 84	associa alle routes i controller per Locations e Others inserendoli in index.js
+pag 85 	costruisce i controller nella cartella app_server/controllers
+pag 92	mette la navbar bootstrap per switchare le route
