@@ -1,11 +1,20 @@
-pag 40 41 fasi di sviluppo
-pag 61 startup applicazione 
-	1)express nome_app 
-	2) npm install 
-	3)npm start
-pag 64 nodemon
+-------------------------------------------
+segnalibro pag 80
+-------------------------------------------
+
+pag 40  fasi di sviluppo
+pag 61 	startup applicazione 
+		1)express nome_app 
+		2) npm install 
+		3)npm start
+pag 64 	nodemon
 pag 66 	introduce cartella app_server 
 		sposta routes e views e 
 		crea cartella models e controllers
 		modifica i riferimenti in app.js
 pag 67	aggiunge la funzione di callback homepageController nella route al posto di una anonima
+	res.render(view_template, oggetto javascript che contiene i dati da usare nella view)
+pag 68	definisce app_server/controllers/main.js e lo riferisce al controller presente in index.js
+pag 70	installa bootstrap e jquery ma senza npm install o bower install
+pag 72	in layout.jade imposta i collegamenti a bootstrap e jqueryù
+pag 74	heroku
