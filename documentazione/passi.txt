@@ -1,5 +1,5 @@
 -------------------------------------------
-segnalibro pag 95
+segnalibro pag 95 successive codice jade di location list
 -------------------------------------------
 
 pag 40  fasi di sviluppo
