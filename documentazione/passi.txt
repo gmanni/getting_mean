@@ -1,5 +1,5 @@
 -------------------------------------------
-segnalibro pag 95 successive codice jade di location list
+segnalibro pag 138
 -------------------------------------------
 
 pag 40  fasi di sviluppo
@@ -22,4 +22,6 @@ pag 84	associa alle routes i controller per Locations e Others inserendoli in in
 pag 85 	costruisce i controller nella cartella app_server/controllers
 pag 92	mette la navbar bootstrap per switchare le route
 
-pag 123  npm install --save mongoose
+pag 123 npm install --save mongoose
+pag 126	detect chiusura connessione mediante readline
+pag 13	aggiunge il model locations dove definisce lo schema
