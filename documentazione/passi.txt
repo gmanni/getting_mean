@@ -1,5 +1,5 @@
 -------------------------------------------
-segnalibro pag 138
+segnalibro pag 160
 -------------------------------------------
 
 pag 40  fasi di sviluppo
@@ -16,12 +16,19 @@ pag 67	aggiunge la funzione di callback homepageController nella route al posto 
 	res.render(view_template, oggetto javascript che contiene i dati da usare nella view)
 pag 68	definisce app_server/controllers/main.js e lo riferisce al controller presente in index.js
 pag 70	installa bootstrap e jquery ma senza npm install o bower install
-pag 72	in layout.jade imposta i collegamenti a bootstrap e jquery�
+pag 72	in layout.jade imposta i collegamenti a bootstrap e jquery
 pag 74	heroku
 pag 84	associa alle routes i controller per Locations e Others inserendoli in index.js
 pag 85 	costruisce i controller nella cartella app_server/controllers
 pag 92	mette la navbar bootstrap per switchare le route
 
 pag 123 npm install --save mongoose
-pag 126	detect chiusura connessione mediante readline
-pag 13	aggiunge il model locations dove definisce lo schema
+pag 126	detect chiusura connessione mongoDB mediante readline
+pag 134	aggiunge il model locations.js dove definisce lo schema del document locale
+pag 142 aggiunge il sub document orari di apertura del locale
+pag 143 aggiunge il sub document recensione del locale per utenti
+pag 145 relaziona model, schema e collection (tabella MongoDB)
+				Se non definisco il nome della collection viene usato nome del model pluralizzato lowercase
+pag 154 mongoDB dump
+pag 155 mongoDB restore (occhio che fa il push dei dati non la sostituzione)
+pag 156 configurare il database corretto (produzione o sviluppo)--> RIVEDERE
