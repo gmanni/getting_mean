@@ -1,5 +1,5 @@
 ﻿-------------------------------------------
-segnalibro pag 176
+segnalibro pag 180
 -------------------------------------------
 
 pag 40  fasi di sviluppo
@@ -34,5 +34,7 @@ pag 155 mongoDB restore (occhio che fa il push dei dati non la sostituzione)
 pag 156 configurare il database corretto (produzione o sviluppo)--> RIVEDERE
 pag 166 elenco error status code più frequenti
 pag 167 crea le routes dell' API rest
-				crea i controllers legati alle route e al model
-				inserisce findById nel controller
+pag 170	crea i controllers legati alle route e al model
+pag 174	inserisce findById nel controller location
+pag 176 fa il controllo degli errori sul findById
+pag 179 crea il controller per andare a ricercare location e review

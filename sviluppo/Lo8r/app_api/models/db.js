@@ -1,7 +1,7 @@
 var mongoose = require( 'mongoose' );
 
 // var dbURI = 'mongodb://localhost:27017/Loc8r';
-var dbURI = 'mongodb://localhost:27017/inventario';
+var dbURI = 'mongodb://localhost:27017/Loc8r';
 mongoose.connect(dbURI);
 
 // CONNECTION EVENTS
