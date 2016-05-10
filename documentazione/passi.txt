@@ -1,5 +1,5 @@
 ﻿-------------------------------------------
-segnalibro pag 180
+segnalibro pag 202
 -------------------------------------------
 
 pag 40  fasi di sviluppo
@@ -38,3 +38,5 @@ pag 170	crea i controllers legati alle route e al model
 pag 174	inserisce findById nel controller location
 pag 176 fa il controllo degli errori sul findById
 pag 179 crea il controller per andare a ricercare location e review
+pag 188 spiega create x aggiungere dati al db
+pag 190 aggiunge i subdocument (cè da vedere tutte le funzioni update, delete etc)
