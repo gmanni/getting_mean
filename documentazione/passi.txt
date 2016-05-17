@@ -40,3 +40,5 @@ pag 176 fa il controllo degli errori sul findById
 pag 179 crea il controller per andare a ricercare location e review
 pag 188 spiega create x aggiungere dati al db
 pag 190 aggiunge i subdocument (cè da vedere tutte le funzioni update, delete etc)
+pag 203 npm install --save request e aggiunge lato server al controller
+pag 204 spiega come procedere con la request
