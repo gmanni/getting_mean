@@ -29,7 +29,24 @@ module.exports.locationsCreate = function(req, res) {
 };
 
 module.exports.locationsListByDistance = function(req, res){
-  sendJsonResponse(res, 200, {"status" : "success"});
+  //sendJsonResponse(res, 200, {"status" : "success"});
+  Loc
+    .find()
+    .exec(function(err, location){
+      if(!location){
+        console.log("404 - Locations not found");
+        sendJsonResponse(res, 404, {"message": "locationid not found"});
+        return;
+      }else if (err){
+        // si è verificato un errore e lo restituisco
+        console.log("404 - " + err);
+        sendJsonResponse(res, 404, err);
+        return;
+      }
+      // restituisco il risultato del findById
+      console.log("200 - " + location);
+      sendJsonResponse(res, 200, location);
+    });
 };
 
 module.exports.locationsReadOne = function(req, res){
