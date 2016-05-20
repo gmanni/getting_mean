@@ -1,5 +1,5 @@
 ﻿-------------------------------------------
-segnalibro pag 216
+segnalibro pag 226
 -------------------------------------------
 
 pag 40  fasi di sviluppo
@@ -42,3 +42,5 @@ pag 188 spiega create x aggiungere dati al db
 pag 190 aggiunge i subdocument (cè da vedere tutte le funzioni update, delete etc)
 pag 203 npm install --save request e aggiunge lato server al controller
 pag 204 spiega come procedere con la request
+pag 219 preleva le info di dettaglio di una location direttamente dal db
+pag 224 gestisce il 404 in caso di locationid non trovato

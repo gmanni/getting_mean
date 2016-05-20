@@ -1,20 +1,15 @@
 extends layout
 
 block content
-  .row.page-header
-    .col-lg-12
-      h1 Starcups
+  .row.page-header: .col-lg-12
+      h1= pageHeader.title
   .row
     .col-xs-12.col-md-9
       .row
         .col-xs-12.col-sm-6
           p.rating
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star-empty
-            span.glyphicon.glyphicon-star-empty
-          p 125 High Street, Reading, RG6 1PS
+            location.rating
+          p= location.address
           .panel.panel-primary
             .panel-heading
               h2.panel-title Opening hours
